@@ -12,6 +12,8 @@ html {
 
 :root {
         --accent-color: #2196F3;
+        --accent-color-active: #188ce8;
+        --black-color: #000000;
         --primary-color: #212121;
         --secondary-color: #757575;
         --dark-color: #2F303A;
@@ -19,6 +21,11 @@ html {
         --secondary-white: #F5F4FA;
         --modal-close-color: #0000001a;
         --modal-overlay-color: #00000033;
+        --modal-border-color: #21212133;
+        --secondary-text-color: #757575;
+        --primary-text-color: #212121;
+        --secondary-text-color: #757575;
+        --secondary-text-color-op: #75757580;
 
         --duration: 250ms;
         --longer: 550ms;
@@ -990,7 +997,7 @@ footer {
 
         transition-duration: var(--duration);
         transition-timing-function: var(--timing-function);
-        background-color: var(--white-color);
+        background-color: var(--primary-white);
         color: var(--black-color);
         border: 1px solid var(--modal-close-color);
         border-radius: 50%;
@@ -1009,6 +1016,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 40px;
 }
 
 .feedback-label {
@@ -1181,7 +1189,7 @@ footer {
         padding: 10px 15px;
 
         background-color: var(--accent-color);
-        color: var(--white-color);
+        color: var(--primary-white);
         border: none;
         border-radius: 4px;
         box-shadow: 0px 4px 4px #00000026;
@@ -1200,5 +1208,6 @@ footer {
 
 .feedback-button:hover,
 .feedback-button:focus {
-        background-color: var(--accent-color-active);
+        color: var(--accent-color);
+        background-color: var(--primary-white);
 }
