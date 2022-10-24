@@ -635,7 +635,7 @@ footer {
 }
 
 .footer-title {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -1012,6 +1012,14 @@ footer {
         overflow: hidden;
 }
 
+.modal-title {
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+}
+
 .feedback-form {
         display: flex;
         flex-direction: column;
@@ -1101,10 +1109,7 @@ footer {
 }
 
 .feedback-accept {
-        position: relative;
-
         margin-bottom: 30px;
-        padding-left: 24px;
 
         color: var(--secondary-text-color);
         line-height: 1.14;
@@ -1116,6 +1121,8 @@ footer {
 
 .accept-checkbox:checked~.checked {
         opacity: 1;
+        fill: var(--primary-white);
+        background-color: var(--accent-color);
 }
 
 .accept-checkbox {
