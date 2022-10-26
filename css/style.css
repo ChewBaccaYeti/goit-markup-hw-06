@@ -1109,6 +1109,8 @@ footer {
 }
 
 .feedback-accept {
+        justify-content: center;
+        align-items: center;
         margin-bottom: 30px;
 
         color: var(--secondary-text-color);
@@ -1138,6 +1140,7 @@ footer {
         margin: -1px;
 }
 
+/*
 .not-checked {
         position: absolute;
         top: 50%;
@@ -1160,7 +1163,7 @@ footer {
 
         transform: translateY(-50%);
         transition: opacity var(--duration) var(--timing-function);
-}
+} */
 
 .accept-link {
         position: relative;
