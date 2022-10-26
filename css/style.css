@@ -1140,11 +1140,11 @@ footer {
         margin: -1px;
 }
 
-/*
+
 .not-checked {
         position: absolute;
-        top: 50%;
-        left: 0;
+        top: 77%;
+        left: 10%;
 
         opacity: 1;
         pointer-events: none;
@@ -1155,15 +1155,15 @@ footer {
 
 .checked {
         position: absolute;
-        top: 50%;
-        left: 0;
+        top: 77%;
+        left: 10%;
 
         opacity: 0;
         pointer-events: none;
 
         transform: translateY(-50%);
         transition: opacity var(--duration) var(--timing-function);
-} */
+}
 
 .accept-link {
         position: relative;
